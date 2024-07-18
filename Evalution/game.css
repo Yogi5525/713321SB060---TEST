@@ -1,0 +1,38 @@
+#box{
+    /* background-color: white; */
+    padding: 3%;
+    margin: 5%;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 20px;
+    border-style: dashed;
+}
+body{
+    background-image: url(game.jpg);
+    background-size: cover;
+}
+button{
+    padding: 14px;
+    border-radius: 14px;
+    background-color: blue;
+    color: white;
+}
+button:hover{
+    background-color: grey;
+    color: black;
+}
+input{
+    border-radius: 14px;
+    width: 10%;
+    height: 5%;
+    text-align: center;
+}
+h1{
+    color: white;
+}
+#result{
+    color: white;
+}
+#score{
+    color: white;
+}

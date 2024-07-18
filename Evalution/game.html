@@ -1,0 +1,40 @@
+<htMl>
+    <head>
+        <title>
+            Guess number 
+        </title>
+        <link rel="Stylesheet" href="game.css"/>
+    </head>
+    <body>
+        <center><h1>Let's Play a game</h1></center>
+        <div id="box">
+            <h1>Guess the number</h1>
+            <input id="input"><br><br>
+            <button onclick=check()>Check</button>
+            <p id="result">You are right/Wrong</p>
+            <h3 id="score">Avail Score : 10</h3>
+        </div>
+        <script>
+            var a = document.getElementById("input")
+            var b = document.getElementById("result")
+            var result = document.getElementById("")
+            var randomnumber = Math.floor(Math.random()*10)+1
+            var totalscore = 10
+            function check()
+            {
+               var enterednum = a.value  
+                if( enterednum== randomnumber){
+                    console.log(b.textContent = "Your are Right!")
+                    alert("Yep! You won!")
+                }
+                else{
+                    console.log(b.textContent="You are Wrong :(")
+                    totalscore=totalscore-1
+                    score.textContent = "Available score :"+ totalscore
+                    alert("Oops! you are wrong :(")
+                }
+            }
+
+        </script>
+    </body>
+</htMl>

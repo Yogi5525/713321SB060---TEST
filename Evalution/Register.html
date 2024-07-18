@@ -1,0 +1,74 @@
+<html>
+<head>
+    <title>
+        Registration </title>
+        <link rel="icon" href="Youtube.png" type="image/png">
+        <link rel="Stylesheet" href="register.css"/>
+</head>
+<body style="background-image: url(background2.jpg);">
+    <center>
+        <h2 style="color:white;">Let's Begin to Escape from the REALITY</h2>
+        <hr>
+        <h4 style="color:white;">Fill the form to know about the lorem</h4>
+    <form class="web" action="login.html" target="_blank">
+        <label><b>Enter your name</b></label><br>
+        <br>
+        <input type="name" required pattern="[A-Z]{1}[a-z]+ [A-Z]{1}" placeholder="eg.Yogesh G" class="adam"/><br>
+        <br>
+        <label><b>Enter the Game you are playing</b></label><br>
+        <br>
+        <input type="name" required placeholder="eg.Free fire" class="adam"/><br>
+        <br>
+        <label>
+            <b>Enter your Game Id</b> 
+        </label><br>
+        <br>
+        <input type="text" required pattern="[A-Z]{1}[a-z]{4}[0-9]{4}" placeholder="eg.Yogii2555" class="adam"/><br>
+        <br>
+        <label><b>Enter the phone number</b></label><br>
+        <br>
+        <input type="tel" required pattern="[0-9]{5}\ \[0-9]{5}" placeholder="eg.98567 42351" class="adam"/><br>
+        <br>
+        <label><b>Enter New Pasword</b></label><br>
+        <br>
+        <input id="pass" type="name" required placeholder="eg.Yogi_25" class="adam"/><br>
+        <br>
+        <label><b>Confirm Password</b></label><br>
+        <br>
+        <input id="pass2" type="password" required placeholder="eg.Password" class="adam"/><br>
+        <br>
+        <h4 style="color: white;">Choose your gender</h4><br>
+        <input type="radio" id="name" name="gender" value="Male"/>
+        <label for="name">Male</label>
+        <input type="radio" id="name" name="gender" value="Female"/>
+        <label for="name">Female</label>
+        <input type="radio" id="name" name="gender" value="Others"/>
+        <label for="name">Others</label><br>
+        <br>
+        <br>
+        <!-- <button id="box" class="tappa" onclick="checkpasswords()">BOOM!</button>  -->
+        <input type="submit" class="tappa" value="BOOM!"/>
+    </form>
+    <div class="footer">
+        <div class="footertext">
+            <footer>&COPY; Copyrights/Act 2024/This Site has been created by Yogii</footer>
+        </div>
+    </div>
+    </center>
+
+    <script>
+        var a = document.getElementById("pass").value;
+        var b = document.getElementById("pass2").value;
+        var box = document.getElementById("box");
+
+        function checkPasswords() {
+            if (a == b) {
+                window.location.href='login,html'
+            }
+            else {
+                alert("Passwords do not match");
+            }
+    }
+    </script>
+</body>
+</html>

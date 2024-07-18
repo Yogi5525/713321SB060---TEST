@@ -1,0 +1,33 @@
+.web{
+    margin-top: 3%;
+}
+.adam{
+    border-radius: 25px;
+    height: 25px;
+    width: 20%;
+    text-align: center;
+}
+.footer{
+    padding: 2%;
+    background-color: black;
+    opacity: 50%;
+    box-shadow: 0 0 10px;
+}
+.footertext{
+    color: white;
+}
+label{
+    color: white;
+}
+.tappa{
+    border-radius: 14px;
+    padding: 20px;
+    background-color:blue;
+    color: white;
+    width: 10%;
+    text-decoration: none;
+}
+.tappa:hover{
+    background-color: red;
+    color: white;
+}
